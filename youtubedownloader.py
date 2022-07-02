@@ -6,8 +6,7 @@ counter = input('How many videos do you want to download? ')
 
 
 for i in range(0, int(counter)):
-    result = None
-    while result == None:
+    while True:
         try:
           url = input("Type in url ")
           video = YouTube(url)
